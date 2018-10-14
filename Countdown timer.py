@@ -16,7 +16,7 @@ print("3")
 time.sleep(2)
 print("Let's Go")
 
-for i in range(countdown,1,-1):
+for i in range(countdown,0,-1):
 
     time.sleep(1)
     print("Countdown...here {}".format(i))
